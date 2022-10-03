@@ -9,7 +9,7 @@ function CreateUsers
     Set-LocalUser $user1 -AccountNeverExpires -PasswordNeverExpires $true -UserMayChangePassword $false
     Add-LocalGroupMember -Group "Administrators" -Member $user1 -ErrorAction stop
 	
-    #Create Install user
+    #Create "name" user
 	$user2 = "type the user name"
 	$fname2 = "type the first name"
     $password2 = ConvertTo-SecureString "type the password" -AsPlainText -Force
