@@ -17,6 +17,4 @@ function Convert-PowerShellToBatch
 }
 
 
-#Get-ChildItem -Path "C:\Users\IgorKapitanov\OneDrive - CIT Corp\Desktop\Work\Scripts\SetupComputers.ps1" | Convert-PowerShellToBatch
-Get-ChildItem -Path "C:\Users\IgorKapitanov\OneDrive - CIT Corp\Desktop\Work\ScriptsForWork\ConfComputers.ps1" | Convert-PowerShellToBatch
-#Get-ChildItem -Path "C:\Users\IgorKapitanov\OneDrive - CIT Corp\Desktop\Work\Scripts\LenovoUpdate.ps1" | Convert-PowerShellToBatch
+Get-ChildItem -Path "type the path to the .ps1 file" | Convert-PowerShellToBatch
