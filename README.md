@@ -13,5 +13,6 @@
 12. OneDrive Install - installing OneDrive (for some reason install with choco doesn't work)
 13. Drivers update - installing the agents and updating the drivers dependig on laptop manufacturer
 14. Dell updates - updating the drivers for Dell computers
+15. AdobeProInstall - installing Adobe Acrobat Pro
 
 All these scripts includes “ConfComputers”
