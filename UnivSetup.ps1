@@ -253,14 +253,14 @@ function RegChange
 function CreateUsers
 {
 	Write-Host "***** Create admin users *****" -ForegroundColor Green
-	#Create CITadmin user
+	#Create first admin user
 	$user1 = "name"
 	$fname1 = "fname"
     $password1 = ConvertTo-SecureString "passwword" -AsPlainText -Force
     New-LocalUser $user1 -Password $password1 -FullName $fname1 -Description "first admin user"
     Set-LocalUser $user1 -AccountNeverExpires -PasswordNeverExpires $true -UserMayChangePassword $false
    	
-    #Create Install user
+    #Create second admin user
 	$user2 = "name"
 	$fname2 = "fname"
     $password2 = ConvertTo-SecureString "password" -AsPlainText -Force
